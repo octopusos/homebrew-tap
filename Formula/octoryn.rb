@@ -2,7 +2,7 @@ class Octoryn < Formula
   desc "Octoryn LLM official command-line interface"
   homepage "https://octopusos.dev"
   version "0.1.0"
-  license "Proprietary"
+  license :cannot_represent
 
   on_macos do
     on_arm do
@@ -27,8 +27,7 @@ class Octoryn < Formula
   end
 
   def install
-    binary = Dir["octoryn-*"].first
-    bin.install binary => "octoryn"
+    bin.install Dir["octoryn-*"].first => "octoryn"
   end
 
   test do
