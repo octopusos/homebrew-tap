@@ -6,23 +6,23 @@ class Octoryn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.0/octoryn-darwin-arm64"
-      sha256 "55cf92ad6bb21a3d195328f2de86af330e9b0996ab062186f6dbcfe6822e1cb5"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/authprobe-20260506-01/octoryn-darwin-arm64"
+      sha256 "f17348d49a9b71bea26fc50fa56a98b5f6f1adf222bad3992dc5b0c9e4835316"
     end
     on_intel do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.0/octoryn-darwin-x64"
-      sha256 "82856471edb00cbe9a4e9dadd60ec2ed32d267c582f355257502938bb6acfc38"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/authprobe-20260506-01/octoryn-darwin-x64"
+      sha256 "15426d43c8f5195acae3f5ba870efeab47015616d5a16ba6495d633b1674c4f4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.0/octoryn-linux-arm64"
-      sha256 "b0e4f6dd20b4790cf2bd6768a63681b2aee18ba1e21354fd4711f506db8ee258"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/authprobe-20260506-01/octoryn-linux-arm64"
+      sha256 "ef22360989adde95867c21b2e8c70223e6c77cb792a188173537010fad3cdf00"
     end
     on_intel do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.0/octoryn-linux-x64"
-      sha256 "28d8f1ca923e7191f0b0c59fc72f920244f27817d85b2af72d0deb1a6fd141d6"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/authprobe-20260506-01/octoryn-linux-x64"
+      sha256 "fb0f7ac155c6186343012ea1b3d23ec28cda7a0728439bcd614a9d5e48b609ca"
     end
   end
 
