@@ -1,28 +1,28 @@
 class Octoryn < Formula
   desc "Octoryn LLM official command-line interface"
   homepage "https://octopusos.dev"
-  version "0.1.2"
+  version "0.1.3"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.2/octoryn-darwin-arm64"
-      sha256 "e498d01aaa29de77853f29e594225224d4c0bb317ece0a7a5768d6f82bdf8024"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.3/octoryn-darwin-arm64"
+      sha256 "0d9dd6b1aeee1afb84464ce1aa7d18e4524e5b76d191d7b53d871ef5cef21d81"
     end
     on_intel do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.2/octoryn-darwin-x64"
-      sha256 "f6bbda0c695babb2ff83451c85e9b4520cd4b4e4d1eef2aa93a45827108be467"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.3/octoryn-darwin-x64"
+      sha256 "a967c73d1c33b447a69f470fd8006584432046f40f07e51eba206c3ce79af2fd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.2/octoryn-linux-arm64"
-      sha256 "53f2dbca22327c0d84014be7e69ac2b81699c6493ce0171a500dc679443fb3b3"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.3/octoryn-linux-arm64"
+      sha256 "ded5481b3b4dd122fc881727b2fdd7a3f2fb8a14e0b98e8eafaa6665b4738a1c"
     end
     on_intel do
-      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.2/octoryn-linux-x64"
-      sha256 "86544d503afaf9a00e588832814af445a8399a35f901cfff33a74f89862e2608"
+      url "https://github.com/octopusos/octoryn-cli-bin/releases/download/cli-v0.1.3/octoryn-linux-x64"
+      sha256 "be89ac41bec4da7ab6a6f83eca1b0929c6445ffeb9535563b3375e9e1a101ae5"
     end
   end
 
