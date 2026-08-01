@@ -1,8 +1,9 @@
 class Octoryn < Formula
-  desc "Octoryn LLM official command-line interface"
-  homepage "https://octopusos.dev"
+  desc "Retired Octoryn command-line interface"
+  homepage "https://octoryn.dev/en/developers/sdks"
   version "2.0.6"
   license :cannot_represent
+  disable! date: "2026-08-01", because: "the Octoryn CLI has been retired; use the Octoryn SDKs"
 
   on_macos do
     on_arm do
