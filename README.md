@@ -1,20 +1,10 @@
-# Octopus Core Homebrew Tap
+# Octoryn CLI Homebrew tap — retired
 
-Homebrew tap for [Octopus Core Pty Ltd](https://octopusos.dev) tools.
+The Octoryn CLI and this Homebrew tap are retired. New integrations should use
+the supported [Octoryn SDKs](https://octoryn.dev/en/developers/sdks) with
+`https://api.octoryn.dev`.
 
-## Install
+The historical formula remains only as a migration record and is explicitly
+disabled. It must not be used for new installations.
 
-```bash
-brew install octopusos/tap/octoryn
-```
-
-## Available formulae
-
-- **octoryn** — Octoryn LLM official command-line interface
-
-## Update
-
-```bash
-brew update
-brew upgrade octoryn
-```
+This repository is archived and receives no releases, upgrades, or support.
